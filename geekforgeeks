@@ -1,4 +1,5 @@
-Given and integer N.Calculate the sum of series 13 + 23 + 33 + 43 + … till N-th term.
+👌👌👌👌👌👌👌👌
+Example 1:Given and integer N.Calculate the sum of series 13 + 23 + 33 + 43 + … till N-th term.
 Example 1:
 Input:
 N=5
@@ -6,6 +7,7 @@ Output:
 225
 Explanation:
 13+23+33+43+53=225
+👍👍👍👍👍👍
 ans:my code
 //geekforgeeks
 //{ Driver Code Starts
@@ -47,4 +49,5 @@ int main() {
     }
 }
 // } Driver Code Ends
-2.
+///solution second 
+smart solution
