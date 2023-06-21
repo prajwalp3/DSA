@@ -7,7 +7,7 @@ Output:
 225
 Explanation:
 13+23+33+43+53=225
-👍👍👍👍👍👍
+1.👍👍👍👍👍👍
 ans:my code
 //geekforgeeks
 //{ Driver Code Starts
@@ -49,5 +49,18 @@ int main() {
     }
 }
 // } Driver Code Ends
+2.👍👍👍👍👍👍
 ///solution second 
 smart solution
+class Solution {
+  public:
+    long long sumOfSeries(long long N) {
+          if(N == 1){
+            return 1; 
+        }
+        long long prev = sumOfSeries(N-1);
+        long long now = (N*N*N) + prev;
+        return now;
+    }
+   
+    };
