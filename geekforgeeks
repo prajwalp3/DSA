@@ -1,0 +1,50 @@
+Given and integer N.Calculate the sum of series 13 + 23 + 33 + 43 + … till N-th term.
+Example 1:
+Input:
+N=5
+Output:
+225
+Explanation:
+13+23+33+43+53=225
+ans:my code
+//geekforgeeks
+//{ Driver Code Starts
+// Initial template for C++
+#include <bits/stdc++.h>
+using namespace std;
+
+// } Driver Code Ends
+// User function template for C++
+
+class Solution {
+  public:
+    long long sumOfSeries(long long N) {
+       long long sum=0;
+       long long a= sumfunc(sum, N);
+       return a;
+    }
+   long long sumfunc(long long sum,long long N){
+         if(N==0)
+         {
+         return sum; 
+         }
+         sum=sumfunc(sum,N-1);
+         sum=(N*N*N)+sum;
+         return sum;
+     }
+    
+};
+
+//{ Driver Code Starts.
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        long long N;
+        cin >> N;
+        Solution ob;
+        cout << ob.sumOfSeries(N) << "\n";
+    }
+}
+// } Driver Code Ends
+2.
